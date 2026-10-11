@@ -1,0 +1,5 @@
+data/raw/
+resultados/estudantes.csv
+.venv/
+__pycache__/
+*.pyc

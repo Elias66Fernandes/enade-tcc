@@ -1,0 +1,46 @@
+
+##### Engenharia: alunos=86030 cursos=3106 IES=803
+[M(ii)  EaD + area] cursos=3106 IES(clusters)=803 tau2=53.7 s2=116.6
+    FGLS (int. aleatorio)    beta_EaD= -4.88  EP= 0.46  IC95%[ -5.78, -3.98]  p=7.7e-25  d=-0.33
+    peso n (=OLS aluno)      beta_EaD= -8.77  EP= 0.63  IC95%[-10.01, -7.53]  p=2.17e-39  d=-0.60
+    peso igual               beta_EaD= -4.37  EP= 0.47  IC95%[ -5.29, -3.46]  p=7.52e-20  d=-0.30
+[M(iii) + privada/org/regiao + composicao] cursos=3100 IES(clusters)=801 tau2=16.3 s2=116.6
+    FGLS (int. aleatorio)    beta_EaD=  0.02  EP= 0.49  IC95%[ -0.94,  0.99]  p=0.963  d= 0.00
+    peso n (=OLS aluno)      beta_EaD= -0.66  EP= 0.71  IC95%[ -2.05,  0.73]  p=0.352  d=-0.04
+    peso igual               beta_EaD=  0.10  EP= 0.52  IC95%[ -0.91,  1.12]  p=0.841  d= 0.01
+[so privadas (M iii)] cursos=2238 IES(clusters)=654 tau2=12.0 s2=107.3
+    FGLS (int. aleatorio)    beta_EaD= -0.10  EP= 0.50  IC95%[ -1.07,  0.87]  p=0.837  d=-0.01
+    peso n (=OLS aluno)      beta_EaD= -0.91  EP= 0.70  IC95%[ -2.28,  0.45]  p=0.19  d=-0.06
+    peso igual               beta_EaD=  0.02  EP= 0.52  IC95%[ -1.01,  1.05]  p=0.971  d= 0.00
+[dentro da IES (FE, 67 IES)] cursos=591 IES(clusters)=67 tau2=17.1 s2=105.0
+    FGLS (int. aleatorio)    beta_EaD= -1.06  EP= 0.46  IC95%[ -1.99, -0.14]  p=0.0251  d=-0.07
+    peso n (=OLS aluno)      beta_EaD= -1.10  EP= 0.59  IC95%[ -2.27,  0.08]  p=0.067  d=-0.07
+    peso igual               beta_EaD= -0.92  EP= 0.46  IC95%[ -1.85,  0.00]  p=0.0502  d=-0.06
+[dentro da IES + composicao] cursos=590 IES(clusters)=67 tau2=18.1 s2=105.0
+    FGLS (int. aleatorio)    beta_EaD= -0.64  EP= 0.63  IC95%[ -1.90,  0.61]  p=0.311  d=-0.04
+    peso n (=OLS aluno)      beta_EaD= -0.74  EP= 0.59  IC95%[ -1.91,  0.43]  p=0.211  d=-0.05
+    peso igual               beta_EaD= -0.36  EP= 0.70  IC95%[ -1.76,  1.04]  p=0.611  d=-0.02
+[curso, bruto] dif=-4.66 Welch p=8.41e-26 MWU p=4.29e-18
+
+##### Saude: alunos=131955 cursos=3400 IES=947
+[M(ii)  EaD + area] cursos=3400 IES(clusters)=947 tau2=50.2 s2=146.8
+    FGLS (int. aleatorio)    beta_EaD= -6.02  EP= 0.58  IC95%[ -7.17, -4.87]  p=1.18e-23  d=-0.41
+    peso n (=OLS aluno)      beta_EaD= -9.02  EP= 0.81  IC95%[-10.61, -7.42]  p=5.24e-27  d=-0.61
+    peso igual               beta_EaD= -5.74  EP= 0.58  IC95%[ -6.88, -4.59]  p=8.43e-22  d=-0.39
+[M(iii) + privada/org/regiao + composicao] cursos=3400 IES(clusters)=947 tau2=23.6 s2=146.8
+    FGLS (int. aleatorio)    beta_EaD= -0.92  EP= 0.76  IC95%[ -2.42,  0.58]  p=0.229  d=-0.06
+    peso n (=OLS aluno)      beta_EaD= -2.41  EP= 0.99  IC95%[ -4.35, -0.47]  p=0.015  d=-0.16
+    peso igual               beta_EaD= -0.68  EP= 0.75  IC95%[ -2.15,  0.78]  p=0.36  d=-0.05
+[so privadas (M iii)] cursos=3003 IES(clusters)=827 tau2=21.7 s2=150.7
+    FGLS (int. aleatorio)    beta_EaD= -0.80  EP= 0.76  IC95%[ -2.29,  0.69]  p=0.293  d=-0.05
+    peso n (=OLS aluno)      beta_EaD= -2.19  EP= 0.96  IC95%[ -4.07, -0.30]  p=0.0229  d=-0.15
+    peso igual               beta_EaD= -0.59  EP= 0.74  IC95%[ -2.05,  0.87]  p=0.43  d=-0.04
+[dentro da IES (FE, 53 IES)] cursos=654 IES(clusters)=53 tau2=27.2 s2=154.5
+    FGLS (int. aleatorio)    beta_EaD= -5.35  EP= 0.78  IC95%[ -6.92, -3.79]  p=8.09e-09  d=-0.36
+    peso n (=OLS aluno)      beta_EaD= -7.42  EP= 1.67  IC95%[-10.77, -4.06]  p=4.73e-05  d=-0.50
+    peso igual               beta_EaD= -5.14  EP= 0.73  IC95%[ -6.60, -3.67]  p=4.29e-09  d=-0.35
+[dentro da IES + composicao] cursos=654 IES(clusters)=53 tau2=21.4 s2=154.5
+    FGLS (int. aleatorio)    beta_EaD= -2.69  EP= 0.78  IC95%[ -4.25, -1.13]  p=0.00107  d=-0.18
+    peso n (=OLS aluno)      beta_EaD= -4.76  EP= 1.13  IC95%[ -7.04, -2.49]  p=0.000106  d=-0.32
+    peso igual               beta_EaD= -2.64  EP= 0.83  IC95%[ -4.30, -0.98]  p=0.00242  d=-0.18
+[curso, bruto] dif=-7.29 Welch p=1.17e-20 MWU p=3.42e-21

@@ -1,0 +1,57 @@
+=== Descritiva (estudante) NT_GER ===
+                        count   mean  median    std  min   max
+AREA       MOD                                                
+Engenharia EaD          13127  33.91    32.8  10.68  0.0  88.9
+           Presencial   74364  42.87    41.6  13.80  0.0  94.7
+Saude      EaD          19817  39.22    38.3  13.41  0.0  85.7
+           Presencial  166463  52.07    52.4  15.23  0.0  99.0
+
+=== Descritiva (curso: média do curso) ===
+                       cursos  media_cursos  dp_cursos  n_mediano  n_max  pequenos_lt10
+AREA       MOD                                                                         
+Engenharia EaD            213         35.03       5.41       18.0   1012             73
+           Presencial    2952         39.76       8.37       17.0    214            789
+Saude      EaD            151         41.64       8.17       29.0   2873             22
+           Presencial    4002         50.25       9.31       29.0    879            384
+
+=== Por área (CO_GRUPO) x modalidade: alunos / cursos / média ===
+          alunos            cursos            media           
+MOD          EaD Presencial    EaD Presencial   EaD Presencial
+CO_GRUPO                                                      
+6            NaN    23274.0    NaN      448.0   NaN       49.3
+12           NaN    31051.0    NaN      305.0   NaN       65.0
+19        2711.0    20618.0   26.0      552.0  36.5       45.6
+23        6862.0    40325.0    8.0      953.0  38.6       50.0
+27         184.0     2183.0    2.0       71.0  37.0       47.0
+28        4794.0    15149.0   46.0      555.0  45.8       49.6
+36        1422.0    21528.0   25.0      674.0  45.6       54.2
+55        3844.0    12335.0   44.0      444.0  31.7       42.5
+5710      3066.0    21447.0   52.0      824.0  33.4       43.0
+5806      2372.0    10077.0   38.0      421.0  33.5       40.8
+5814        39.0     3541.0    4.0      147.0  34.4       43.9
+5902      1418.0    12892.0   30.0      468.0  33.5       41.6
+6002         4.0     1785.0    1.0       74.0  45.6       46.2
+6008        69.0     5233.0    3.0      166.0  31.2       39.8
+6208      4448.0    11578.0   59.0      516.0  33.6       41.9
+6307       471.0     3354.0   10.0      159.0  45.6       56.6
+6405         NaN     1461.0    NaN       59.0   NaN       44.5
+6411      1240.0     2996.0   16.0      118.0  33.4       44.4
+
+=== Categoria administrativa (cursos) ===
+PRIVADA        0     1
+MOD                   
+EaD            4   360
+Presencial  1491  5463
+
+IES com as duas modalidades (nas áreas do estudo): 88
+Assimetria NT_GER: 0.144 | curtose: -0.557
+
+=== ICC(1) por ANOVA, agrupando por curso (aproximacao; ignora IES) ===
+Engenharia: ICC_curso=0.384 | alunos/curso medio=27.7 | DEFF=11.2
+Saude: ICC_curso=0.334 | alunos/curso medio=38.8 | DEFF=13.6
+Conjunto: ICC_curso=0.378 | DEFF=13.3
+Conjunto, agrupando por IES: ICC_IES=0.189
+
+=== ICC (modelo nulo, REML) ===
+[Engenharia (areas comparaveis)] n=86030 cursos=3106 | tau2_curso=60.8 s2_e=116.5 | ICC_curso=0.343 | m_medio=27.7 DEFF=10.2 | conv=True (2s)
+[Saude (areas comparaveis)] n=131955 cursos=3400 | tau2_curso=67.5 s2_e=146.8 | ICC_curso=0.315 | m_medio=38.8 DEFF=12.9 | conv=True (2s)

@@ -1,0 +1,20 @@
+
+##### Engenharia: n=86030 cursos=3106 IES=803
+[Engenharia M(ii)] beta_EaD=-4.93 (EP 0.54) IC95% [-5.99, -3.88] p=3.89e-20 d=-0.34 | tau2=46.7 s2=116.5 conv=True 
+[Engenharia M(iii)] beta_EaD=0.02 (EP 0.43) IC95% [-0.83, 0.86] p=0.969 d=0.00 | tau2=15.3 s2=116.6 conv=True 
+[OLS cluster CO_CURSO | Engenharia] beta_EaD=-8.77 (EP 0.37) p=1.23e-122
+[OLS cluster CO_IES | Engenharia] beta_EaD=-8.77 (EP 0.63) p=6.87e-44
+[Engenharia so privadas] beta_EaD=-0.11 (EP 0.39) IC95% [-0.88, 0.66] p=0.772 d=-0.01 | tau2=10.7 s2=107.3 conv=True 
+[FE de IES, 67 IES] beta_EaD=-1.10 (EP 0.41) p=0.00696
+[curso] Welch p=8.41e-26 | MWU p=4.29e-18 | dif=-4.66
+[ingenuo aluno] dif=-8.93 Welch p=0
+
+##### Saude: n=131955 cursos=3400 IES=947
+[Saude M(ii)] beta_EaD=-6.02 (EP 0.64) IC95% [-7.27, -4.78] p=2.58e-21 d=-0.41 | tau2=49.9 s2=146.8 conv=True 
+[Saude M(iii)] beta_EaD=-0.93 (EP 0.51) IC95% [-1.92, 0.06] p=0.0663 d=-0.06 | tau2=19.9 s2=146.9 conv=True 
+[OLS cluster CO_CURSO | Saude] beta_EaD=-9.02 (EP 0.76) p=1.93e-32
+[OLS cluster CO_IES | Saude] beta_EaD=-9.02 (EP 0.81) p=1.1e-28
+[Saude so privadas] beta_EaD=-0.81 (EP 0.49) IC95% [-1.76, 0.15] p=0.0977 d=-0.05 | tau2=17.6 s2=150.8 conv=True 
+[FE de IES, 53 IES] beta_EaD=-7.42 (EP 0.93) p=2.14e-15
+[curso] Welch p=1.17e-20 | MWU p=3.42e-21 | dif=-7.29
+[ingenuo aluno] dif=-9.85 Welch p=0

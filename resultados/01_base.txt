@@ -1,0 +1,12 @@
+Funil de filtros: {'inscritos': 406294, 'TP_PRES=555': 346728, 'TP_PR_GER=555': 346667, 'NT_GER nao nulo': 346458, 'areas Eng+Saude': 273771}
+
+Estudantes: 273771 | cursos: 7318 | IES: 1219
+                alunos  cursos   ies
+AREA       EAD                      
+Engenharia 0     74364    2952   797
+           1     13127     213    75
+Saude      0    166463    4002  1007
+           1     19817     151    61
+
+Grupos sem curso EaD: [6, 12, 6405]
+NaN em composição (cursos): {'IDADE_MEDIA': 0, 'P_FEM': 0, 'P_RENDA_ATE15SM': 6, 'P_PAIS_SUP': 6, 'P_TRAB_21H': 6}
